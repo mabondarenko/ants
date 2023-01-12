@@ -1,0 +1,79 @@
+
+#Ignore thumbnails created by windows
+Thumbs.db
+desktop.ini
+
+#Ignore build files
+*.obj
+*.exe
+*.dmg
+*.lib
+*.tlb
+*.tlh
+[Bb]in
+[Dd]ebug*/
+obj/
+[Rr]elease*/
+_ReSharper*/
+_obj/
+_release/
+_debug/
+_setup/
+_tmp/
+_test/
+_setting/
+[Tt]mp/
+[Bb]uild*/
+
+[Tt]est[Rr]esult*
+
+#Ignore files build by Visual Studio
+.vscode/ipch/
+*.pdb
+*.idc
+*.idb
+*.user
+*.aps
+*.pch
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.bak
+*.cache
+*.ilk
+*.log
+*.sbr
+*.cd
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.metaproj
+*.metaproj.tmp
+*.lo
+*.o
+*.VC.db
+*.VC.opendb
+*.autosave
+
+#Ignore files build by Qt
+GeneratedFiles*/
+ui_*.h
+Makefile
+*.qm
+
+#Ignore files build by Google protbuf
+#*.pb.cc
+#*.pb.h
+
+#SCC files
+*.scc
+*.vspscc
+*.vssscc
+
+#Ignore temp. merge files
+*.orig
+
+.svn/
+
+\.vscode/settings\.json
